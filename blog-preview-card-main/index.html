@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <!-- font google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<!-- icon site -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Blog preview card</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { 
+      font-size: 11px; text-align: center; 
+      
+
+    }
+    .attribution a {
+       color: hsl(228, 45%, 44%); 
+    
+      }
+
+
+
+
+      body{
+        display: flex;
+        background-color: hsl(47, 88%, 63%);
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      
+    .content{
+      width: 340px;
+      background-color: rgb(255, 255, 255);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+      box-shadow: 15px 15px 2px black;
+      border:  1px solid black;
+    }
+    .image img{
+      border-radius: 15px;
+    }
+ 
+   .cor-t{
+    display: flex;
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    width: 80px;
+    height: 30px;
+    border-radius: 3px;
+    justify-content: center;
+    align-items: center;
+   }
+   .cor-t2{
+    font-family: "Figtree", sans-serif;
+    font-weight: 700;
+   }
+   p{
+    font-family: "Figtree", sans-serif;
+   }
+   h1{
+    font-family: "Figtree", sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+   }
+    a{
+      margin: 10px;
+      font-family: "Figtree", sans-serif;
+      font-weight: 800;
+    }
+    .perfil{
+      display: flex;
+      align-items: center;
+      
+     
+    }
+    .perfil img{
+      border-radius: 50%;
+    }
+  </style>
+</head>
+<body>
+    <main class="content">
+      <div class="image">
+        <img src="assets/images/illustration-article.svg" alt="">
+      </div>
+      <div class="text">
+      <p class="cor-t">Learning</p>
+
+      <p class="cor-t2">Published 21 Dec 2023</p>
+
+      <h1>HTML & CSS foundations</h1>
+
+      <p>These languages are the backbone of every <br> website, defining structure, content, and <br>presentation.</p>
+    </div>
+  <div class="perfil">
+    <img src="assets/images/foto.webp" alt=""><a>Abelardo Souza</a>
+  </div>
+  <br>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Abelardo Souza</a>.
+  </div>
+  </main>
+
+</body>
+
+</html>
